@@ -101,7 +101,7 @@ for imageIdx = 1:numImages
         % save phi, epsilon, and priorMean at each trial
         phiData{trialIdx} = {deltaT:deltaT:timeUnits, phiLayers};
         epsilonData{trialIdx} = {deltaT:deltaT:timeUnits, epsilonLayers};
-        priorMeanData{trialIdx} = {1:length(priorMean), priorMean};
+        priorMeanData{trialIdx} = {1:length(priorMean(1, :)), priorMean};
     end
 
     % prepare layers for next iteration
