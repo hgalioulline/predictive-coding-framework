@@ -89,7 +89,7 @@ for imageIdx = 1:numImages
         end
         
         if strcmp(lesion, 'Zero Pad Theta')
-            for randThetaElementIdx = 1:length(randThetaElements)
+            for randThetaElementIdx = 1:length(randThetaElements(:, 1))
                 thetaLayers{randThetaLayer}(randThetaElements(randThetaElementIdx, 1), ...
                     randThetaElements(randThetaElementIdx, 2)) = 0;
             end
