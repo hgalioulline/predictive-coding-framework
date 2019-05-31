@@ -5,7 +5,7 @@ Based on the paper: https://www.sciencedirect.com/science/article/pii/S002224961
 Download this folder and add it to your working directory in MATLAB 
 in Home > Set Path > Add With Subfolders ...
 
-Open the 'PCFramework.mlapp' file in MATLAB and you should be 
+Open and run the 'PCFramework.mlapp' file in MATLAB and you should be 
 good to explore Predictive Coding. 
 
 
